@@ -1,31 +1,44 @@
-name: Build Forgotten Kingdoms APK
+name: Forgotten Kingdoms - Android APK
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   build:
+    name: Build Android APK
     runs-on: ubuntu-latest
+
     steps:
       - name: Baixar projeto
         uses: actions/checkout@v4
-      - name: Configurar Java
+
+      - name: Configurar Java 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-      - name: Configurar Gradle
+
+      - name: Configurar Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Instalar Gradle 8.9
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
+
       - name: Compilar APK
-        working-directory: android
-        run: gradle --no-daemon :app:assembleDebug
+        run: gradle -p android assembleDebug
+
       - name: Disponibilizar APK
         uses: actions/upload-artifact@v4
         with:
-          name: Forgotten-Kingdoms-debug-apk
+          name: Forgotten-Kingdoms-APK
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
+          retention-days: 30
