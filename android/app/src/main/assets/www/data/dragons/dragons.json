@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ashwing",
+    "name": "Asa-de-Cinza",
+    "type": "ancient_dragon",
+    "biome": "mountains",
+    "lore": "Um dragão ancestral ligado às chamas antigas de Eryndor.",
+    "boss": true
+  },
+  {
+    "id": "deepwarden",
+    "name": "Guardião Abissal",
+    "type": "sea_dragon",
+    "biome": "underwater_ruins",
+    "lore": "Uma criatura das águas profundas que protege ruínas submersas.",
+    "boss": true
+  }
+]

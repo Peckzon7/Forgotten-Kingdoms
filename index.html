@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#17231d">
+  <title>Forgotten Kingdoms</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header class="topbar">
+      <div class="brand"><span class="crest">FK</span><div><strong>FORGOTTEN KINGDOMS</strong><small>As Crônicas de Eryndor</small></div></div>
+      <div class="stats">
+        <span>NV. <b id="level-value">1</b></span>
+        <span class="stat health">VIDA <b id="health-value">100/100</b></span>
+        <span class="stat mana">MANA <b id="mana-value">100/100</b></span>
+      </div>
+      <button id="pause-button" class="icon-button" aria-label="Pausar">Ⅱ</button>
+    </header>
+    <section class="viewport">
+      <canvas id="game-canvas" aria-label="Mundo de Forgotten Kingdoms"></canvas>
+      <div class="location-label">🌿 Campos de Eryndor</div>
+      <div id="game-message" class="game-message" aria-live="polite">Explore Eryndor</div>
+      <div class="touch-ui">
+        <div id="virtual-joystick" class="joystick"><div class="joystick-knob"></div></div>
+        <div class="action-buttons"><button id="interact-button" class="action secondary">E<br><small>Interagir</small></button><button id="attack-button" class="action attack">⚔<br><small>Atacar</small></button></div>
+      </div>
+    </section>
+    <footer class="bottom-bar">
+      <div class="hint">WASD / Setas: mover · J: atacar · E: interagir</div>
+      <div class="save-actions"><button id="save-button">Salvar</button><button id="load-button">Carregar</button></div>
+    </footer>
+  </main>
+  <script type="module" src="./scripts/core/main.js"></script>
+</body>
+</html>

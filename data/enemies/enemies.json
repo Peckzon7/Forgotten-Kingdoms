@@ -1,0 +1,29 @@
+[
+  {
+    "id": "slime",
+    "name": "Lodo Errante",
+    "health": 38,
+    "attack": 7,
+    "defense": 1,
+    "experience": 20,
+    "hostile": true
+  },
+  {
+    "id": "gray_wolf",
+    "name": "Lobo Cinzento",
+    "health": 55,
+    "attack": 10,
+    "defense": 3,
+    "experience": 35,
+    "hostile": true
+  },
+  {
+    "id": "forest_bandit",
+    "name": "Saqueador da Mata",
+    "health": 90,
+    "attack": 15,
+    "defense": 6,
+    "experience": 60,
+    "hostile": true
+  }
+]

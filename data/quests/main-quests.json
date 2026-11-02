@@ -1,0 +1,596 @@
+{
+  "main": [
+    {
+      "id": "main_01",
+      "type": "main",
+      "title": "O Despertar",
+      "description": "Capítulo 1 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m1_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [],
+      "rewards": {
+        "experience": 60,
+        "gold": 25
+      }
+    },
+    {
+      "id": "main_02",
+      "type": "main",
+      "title": "Rumores na Vila",
+      "description": "Capítulo 2 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m2_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_01"
+      ],
+      "rewards": {
+        "experience": 70,
+        "gold": 30
+      }
+    },
+    {
+      "id": "main_03",
+      "type": "main",
+      "title": "Estrada em Perigo",
+      "description": "Capítulo 3 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m3_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_02"
+      ],
+      "rewards": {
+        "experience": 80,
+        "gold": 35
+      }
+    },
+    {
+      "id": "main_04",
+      "type": "main",
+      "title": "A Mina Abandonada",
+      "description": "Capítulo 4 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m4_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_03"
+      ],
+      "rewards": {
+        "experience": 90,
+        "gold": 40
+      }
+    },
+    {
+      "id": "main_05",
+      "type": "main",
+      "title": "Ecos Antigos",
+      "description": "Capítulo 5 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m5_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_04"
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 45
+      }
+    },
+    {
+      "id": "main_06",
+      "type": "main",
+      "title": "A Floresta Velada",
+      "description": "Capítulo 6 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m6_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_05"
+      ],
+      "rewards": {
+        "experience": 110,
+        "gold": 50
+      }
+    },
+    {
+      "id": "main_07",
+      "type": "main",
+      "title": "O Primeiro Selo",
+      "description": "Capítulo 7 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m7_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_06"
+      ],
+      "rewards": {
+        "experience": 120,
+        "gold": 55
+      }
+    },
+    {
+      "id": "main_08",
+      "type": "main",
+      "title": "Cinzas do Passado",
+      "description": "Capítulo 8 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m8_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_07"
+      ],
+      "rewards": {
+        "experience": 130,
+        "gold": 60
+      }
+    },
+    {
+      "id": "main_09",
+      "type": "main",
+      "title": "A Travessia",
+      "description": "Capítulo 9 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m9_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_08"
+      ],
+      "rewards": {
+        "experience": 140,
+        "gold": 65
+      }
+    },
+    {
+      "id": "main_10",
+      "type": "main",
+      "title": "O Reino Dividido",
+      "description": "Capítulo 10 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m10_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_09"
+      ],
+      "rewards": {
+        "experience": 150,
+        "gold": 70
+      }
+    },
+    {
+      "id": "main_11",
+      "type": "main",
+      "title": "A Torre Silenciosa",
+      "description": "Capítulo 11 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m11_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_10"
+      ],
+      "rewards": {
+        "experience": 160,
+        "gold": 75
+      }
+    },
+    {
+      "id": "main_12",
+      "type": "main",
+      "title": "A Magia Proibida",
+      "description": "Capítulo 12 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m12_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_11"
+      ],
+      "rewards": {
+        "experience": 170,
+        "gold": 80
+      }
+    },
+    {
+      "id": "main_13",
+      "type": "main",
+      "title": "O Dragão Adormecido",
+      "description": "Capítulo 13 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m13_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_12"
+      ],
+      "rewards": {
+        "experience": 180,
+        "gold": 85
+      }
+    },
+    {
+      "id": "main_14",
+      "type": "main",
+      "title": "A Coroa Partida",
+      "description": "Capítulo 14 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m14_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_13"
+      ],
+      "rewards": {
+        "experience": 190,
+        "gold": 90
+      }
+    },
+    {
+      "id": "main_15",
+      "type": "main",
+      "title": "O Destino de Eryndor",
+      "description": "Capítulo 15 da jornada de Kaelen por Eryndor.",
+      "objectives": [
+        {
+          "id": "m15_explore",
+          "type": "explore",
+          "description": "Investigue a região indicada",
+          "required": 1
+        }
+      ],
+      "prerequisites": [
+        "main_14"
+      ],
+      "rewards": {
+        "experience": 200,
+        "gold": 95
+      }
+    }
+  ],
+  "side": [
+    {
+      "id": "side_01",
+      "type": "side",
+      "title": "Ervas para Alden",
+      "description": "Tarefa opcional: ervas para alden.",
+      "objectives": [
+        {
+          "id": "s1_task",
+          "type": "collect",
+          "description": "Conclua a tarefa solicitada",
+          "required": 3
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_02",
+      "type": "side",
+      "title": "Lobos na Estrada",
+      "description": "Tarefa opcional: lobos na estrada.",
+      "objectives": [
+        {
+          "id": "s2_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_03",
+      "type": "side",
+      "title": "Ferramentas Perdidas",
+      "description": "Tarefa opcional: ferramentas perdidas.",
+      "objectives": [
+        {
+          "id": "s3_task",
+          "type": "collect",
+          "description": "Conclua a tarefa solicitada",
+          "required": 3
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_04",
+      "type": "side",
+      "title": "Entrega do Ferreiro",
+      "description": "Tarefa opcional: entrega do ferreiro.",
+      "objectives": [
+        {
+          "id": "s4_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_05",
+      "type": "side",
+      "title": "Água para a Vila",
+      "description": "Tarefa opcional: água para a vila.",
+      "objectives": [
+        {
+          "id": "s5_task",
+          "type": "collect",
+          "description": "Conclua a tarefa solicitada",
+          "required": 3
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_06",
+      "type": "side",
+      "title": "Caçadores Desaparecidos",
+      "description": "Tarefa opcional: caçadores desaparecidos.",
+      "objectives": [
+        {
+          "id": "s6_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_07",
+      "type": "side",
+      "title": "Mercadorias Roubadas",
+      "description": "Tarefa opcional: mercadorias roubadas.",
+      "objectives": [
+        {
+          "id": "s7_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_08",
+      "type": "side",
+      "title": "O Poço Antigo",
+      "description": "Tarefa opcional: o poço antigo.",
+      "objectives": [
+        {
+          "id": "s8_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_09",
+      "type": "side",
+      "title": "Uma Canção Distante",
+      "description": "Tarefa opcional: uma canção distante.",
+      "objectives": [
+        {
+          "id": "s9_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    },
+    {
+      "id": "side_10",
+      "type": "side",
+      "title": "O Mapa Rasgado",
+      "description": "Tarefa opcional: o mapa rasgado.",
+      "objectives": [
+        {
+          "id": "s10_task",
+          "type": "defeat",
+          "description": "Conclua a tarefa solicitada",
+          "required": 2
+        }
+      ],
+      "rewards": {
+        "experience": 35,
+        "gold": 25
+      }
+    }
+  ],
+  "bonus": [
+    {
+      "id": "bonus_01",
+      "type": "bonus",
+      "title": "Prova do Guerreiro",
+      "description": "Desafio especial: prova do guerreiro.",
+      "objectives": [
+        {
+          "id": "b1_challenge",
+          "type": "challenge",
+          "description": "Complete o desafio especial",
+          "required": 1
+        }
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 75,
+        "rareItem": true
+      }
+    },
+    {
+      "id": "bonus_02",
+      "type": "bonus",
+      "title": "Caçada Noturna",
+      "description": "Desafio especial: caçada noturna.",
+      "objectives": [
+        {
+          "id": "b2_challenge",
+          "type": "challenge",
+          "description": "Complete o desafio especial",
+          "required": 1
+        }
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 75,
+        "rareItem": true
+      }
+    },
+    {
+      "id": "bonus_03",
+      "type": "bonus",
+      "title": "Relíquias Esquecidas",
+      "description": "Desafio especial: relíquias esquecidas.",
+      "objectives": [
+        {
+          "id": "b3_challenge",
+          "type": "challenge",
+          "description": "Complete o desafio especial",
+          "required": 1
+        }
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 75,
+        "rareItem": true
+      }
+    },
+    {
+      "id": "bonus_04",
+      "type": "bonus",
+      "title": "Desafio Arcano",
+      "description": "Desafio especial: desafio arcano.",
+      "objectives": [
+        {
+          "id": "b4_challenge",
+          "type": "challenge",
+          "description": "Complete o desafio especial",
+          "required": 1
+        }
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 75,
+        "rareItem": true
+      }
+    },
+    {
+      "id": "bonus_05",
+      "type": "bonus",
+      "title": "Lenda dos Dragões",
+      "description": "Desafio especial: lenda dos dragões.",
+      "objectives": [
+        {
+          "id": "b5_challenge",
+          "type": "challenge",
+          "description": "Complete o desafio especial",
+          "required": 1
+        }
+      ],
+      "rewards": {
+        "experience": 100,
+        "gold": 75,
+        "rareItem": true
+      }
+    }
+  ]
+}

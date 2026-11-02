@@ -1,0 +1,34 @@
+[
+  {
+    "id": "rusty_sword",
+    "name": "Espada Gasta",
+    "slot": "weapon",
+    "damage": 8,
+    "bonuses": {
+      "attack": 3
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "oak_spear",
+    "name": "Lança de Carvalho",
+    "slot": "weapon",
+    "damage": 10,
+    "bonuses": {
+      "attack": 4
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "runeblade",
+    "name": "Lâmina Rúnica",
+    "slot": "weapon",
+    "damage": 22,
+    "bonuses": {
+      "attack": 12,
+      "intelligence": 3
+    },
+    "rarity": "epic",
+    "magicSocket": true
+  }
+]

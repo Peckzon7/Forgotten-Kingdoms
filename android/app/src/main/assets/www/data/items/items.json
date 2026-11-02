@@ -1,0 +1,22 @@
+[
+  {
+    "id": "health_potion",
+    "name": "Poção de Vida",
+    "type": "consumable",
+    "stackable": true,
+    "heal": 40
+  },
+  {
+    "id": "mana_potion",
+    "name": "Poção de Mana",
+    "type": "consumable",
+    "stackable": true,
+    "restoreMana": 35
+  },
+  {
+    "id": "herb_moonleaf",
+    "name": "Folha-da-Lua",
+    "type": "material",
+    "stackable": true
+  }
+]

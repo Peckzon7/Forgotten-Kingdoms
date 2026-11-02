@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shadow_bolt",
+    "name": "Projétil Sombrio",
+    "school": "cursed",
+    "manaCost": 16,
+    "cooldown": 1800,
+    "damage": 38,
+    "corruption": 4
+  },
+  {
+    "id": "blood_oath",
+    "name": "Juramento de Sangue",
+    "school": "cursed",
+    "manaCost": 10,
+    "cooldown": 8000,
+    "damage": 0,
+    "heal": 55,
+    "corruption": 12
+  }
+]

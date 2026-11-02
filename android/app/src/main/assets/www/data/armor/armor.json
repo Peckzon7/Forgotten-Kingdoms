@@ -1,0 +1,31 @@
+[
+  {
+    "id": "traveler_tunic",
+    "name": "Túnica de Viajante",
+    "slot": "armor",
+    "bonuses": {
+      "defense": 2,
+      "maxHealth": 10
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "iron_helm",
+    "name": "Elmo de Ferro",
+    "slot": "helmet",
+    "bonuses": {
+      "defense": 4
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "warden_plate",
+    "name": "Armadura do Guardião",
+    "slot": "armor",
+    "bonuses": {
+      "defense": 12,
+      "maxHealth": 45
+    },
+    "rarity": "rare"
+  }
+]

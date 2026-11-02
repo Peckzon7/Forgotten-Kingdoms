@@ -1,0 +1,16 @@
+[
+  {
+    "id": "elder_alden",
+    "name": "Alden",
+    "role": "elder",
+    "location": "vila_aurora",
+    "dialogue": "As antigas estradas de Eryndor voltaram a despertar."
+  },
+  {
+    "id": "blacksmith_brom",
+    "name": "Brom",
+    "role": "blacksmith",
+    "location": "vila_aurora",
+    "dialogue": "Uma boa lâmina depende tanto do aço quanto de quem a empunha."
+  }
+]

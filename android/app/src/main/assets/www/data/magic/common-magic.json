@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spark",
+    "name": "Faísca Arcana",
+    "school": "common",
+    "manaCost": 8,
+    "cooldown": 900,
+    "damage": 18
+  },
+  {
+    "id": "healing_light",
+    "name": "Luz Restauradora",
+    "school": "common",
+    "manaCost": 18,
+    "cooldown": 5000,
+    "heal": 35
+  }
+]

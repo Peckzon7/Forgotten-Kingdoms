@@ -1,0 +1,19 @@
+FORGOTTEN KINGDOMS — COMPILAÇÃO PELO CELULAR
+
+Este ZIP foi preparado para compilar o APK usando GitHub Actions, sem Android Studio no celular.
+
+1. Extraia este ZIP.
+2. Entre em github.com pelo navegador e entre/crie sua conta.
+3. Crie um repositório novo chamado Forgotten-Kingdoms. Pode deixar Private.
+4. Envie TODOS os arquivos e pastas desta pasta extraída para a raiz do repositório. É importante enviar também a pasta oculta .github e o arquivo .github/workflows/build-apk.yml.
+5. Depois do envio, abra a aba Actions do repositório.
+6. Abra o fluxo “Build Forgotten Kingdoms APK”. Se aparecer o botão “Run workflow”, toque nele e confirme.
+7. Aguarde o trabalho terminar com marca verde.
+8. Abra a execução concluída, desça até Artifacts e baixe “Forgotten-Kingdoms-debug-apk”.
+9. Extraia o ZIP baixado. Dentro estará app-debug.apk.
+10. Toque no APK para instalar. Se o Android pedir, permita a instalação para o navegador/gerenciador de arquivos usado.
+
+Observações:
+- O primeiro build pode demorar alguns minutos.
+- O APK debug é para testes; não é uma versão assinada para publicação na Play Store.
+- Não compartilhe senhas, tokens ou códigos de acesso.
